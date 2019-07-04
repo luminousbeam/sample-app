@@ -1,8 +1,10 @@
+# Language: Ruby, Level: Level 3
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @user = users(:one)
+    # @user = user(:one)
+      @user = User.new(name: "Example User", email: "user@example.com")
   end
 
   test "should get index" do
