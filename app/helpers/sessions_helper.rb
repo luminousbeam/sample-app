@@ -1,5 +1,4 @@
 module SessionsHelper
-
   #Logs in the current user
   def log_in(user)
     session[:user_id] = user.id
