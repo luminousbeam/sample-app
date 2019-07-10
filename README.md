@@ -39,3 +39,5 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+To view my deployed sample app visit [Deployed App](https://murmuring-temple-98611.herokuapp.com/)
